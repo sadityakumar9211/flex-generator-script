@@ -43,7 +43,6 @@ Automates the execution of commands for generating the lexical analyser using fl
   </p>
 </div>
 
-### This is the Front-end repository of this project. 
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -75,15 +74,12 @@ Automates the execution of commands for generating the lexical analyser using fl
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img width="1278" alt="image" src="https://user-images.githubusercontent.com/78147198/184471278-42e393d0-db94-4577-bdc9-328510b777c0.png">
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/78147198/185769483-892175a1-6ee2-48e6-9a6b-66aad9467068.png">
 
-**Blockchain** being an immutable ledger and with decentralized nature has a great potential for increasing the security, privacy and efficiency of Medical Health Record keeping systems. Currently existing solutions rely on centralised database which are susceptible to *Ransomware attacks, Denial of Service(DoS) attacks and also have significant counterparty risks*. Some decentralized solutions are also exist but some of them are not really decentralized that are based on private or permis- sioned blockchain, while some which are based on public blockchain have not properly addressed the performance and scalability issues. 
+This bash script basically reduces the overhead of writing the commands one-by-one to compile lex file to c file and then c file to machine code and executing the machine code to run the lexical analyser with just writing one command `makelex.sh <file_name.l>`
 
-The proposed system is based on EVM compatible public blockchains using IPFS as a decentralized file storage solution and uses 2048 bit RSA encryption to encrypt the IPFS HASH of file metadata on the client-side before uploading the HASH on the blockchain. For supporting fast and complex queries this system uses a decentralized indexing protocol *The Graph*. The smart contract is currently deployed on *Rinkeby Testnet*.
 
-With this system patients can access their medical records anytime anywhere without the counterparty risk from centralized entity. This system also features QR code for sharing of medical files from patients to doctors. With the proposed implementation the decentralized medical record keeping system provides increased security and privacy compared to centralized systems without loss of significant performance or scalability benefits.
-
-### Read the detailed description of the project [here](https://ipfs.infura.io/QmZtqbqPkm74j43Lhwd93fvDXCDCdYB8y8Gnaayc1f9LWG)
+d the detailed description of the project [here](https://ipfs.infura.io/QmZtqbqPkm74j43Lhwd93fvDXCDCdYB8y8Gnaayc1f9LWG)
 
 ### The links to other repositories of this project is at the top.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
