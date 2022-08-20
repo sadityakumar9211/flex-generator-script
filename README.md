@@ -89,11 +89,8 @@ d the detailed description of the project [here](https://ipfs.infura.io/QmZtqbqP
 
 The following is a list of major frameworks, library and tools used for developing this repository.
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-- [![tailwindcss][tailwindcss]][tailwind-url]
-- [![moralis][moralis]][moralis-url]
-- [![web3uikit][web3uikit]][web3uikit-url]
+- [![Bash][Bash]][Bash-url]
+
 
 
 
@@ -104,7 +101,7 @@ The following is a list of major frameworks, library and tools used for developi
 <!-- GETTING STARTED -->
 # Getting Started
 
-## Requirements
+<!-- ## Requirements
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
@@ -117,7 +114,7 @@ The following is a list of major frameworks, library and tools used for developi
     - You might need to install it with `npm`
 - Optional Instruction
   - Make sure that this repository and `medichain-hardhat` repository are in the same level in your directory structure.
-  - This makes sure that whenever you deploy the smart contract, this repository's `constants` files are updated.
+  - This makes sure that whenever you deploy the smart contract, this repository's `constants` files are updated. -->
 ## Quickstart
 
 ```bash
@@ -139,17 +136,17 @@ If you can't or don't want to run and install locally, you can work with this re
 
 <!-- USAGE EXAMPLES -->
 
-## Locally Deploying
+<!-- ## Locally Deploying
 
 2. Deploy to your contract to Rinkeby
 After installing dependencies, deploy your contracts to rinkeby:
 
 ```bash
 yarn hardhat deploy --network rinkeby
-```
+``` -->
 
 
-3. Connecting with Subgraph
+<!-- 3. Connecting with Subgraph
 
 You can use the same subgraph temporary URI (as present in the `pages/_app.js`) to query the data or you can clone [this repository](https://github.com/sadityakumar9211/medichain-thegraph) and deploy your own subgraph using the instructions in above repo and generate your own temporary query URI.
 
@@ -161,7 +158,7 @@ In your networkMapping.json you have an entry for `PatientMedicalRecordSystem` o
 ```bash
 yarn dev
 ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 <!-- CONTRIBUTING -->
@@ -194,9 +191,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-If you appreciated this, feel free to follow me or donate!
+If you appreciated this, then follow me
 
-ETH Address: 0xED5A704De64Ff9699dB62d09248C8d179bb77D8A
+<!-- ETH Address: 0xED5A704De64Ff9699dB62d09248C8d179bb77D8A -->
 
 [![Aditya Singh Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saditya9211/)
 [![Aditya Singh Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sadityakumar921)
@@ -210,7 +207,7 @@ Project Link: [https://github.com/sadityakumar9211/medichain-hardhat](https://gi
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS
 ## Acknowledgments
 
 * [Choose an Open Source License](https://choosealicense.com)
@@ -219,9 +216,9 @@ Project Link: [https://github.com/sadityakumar9211/medichain-hardhat](https://gi
 * [ipfs-core](https://www.npmjs.com/package/ipfs-core)
 * [node-rsa for encryption](https://www.npmjs.com/package/node-rsa)
 * [qrcode for generating qrcode](https://www.npmjs.com/package/qrcode)
-* [swr](https://www.npmjs.com/package/swr)
+* [swr](https://www.npmjs.com/package/swr) -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -243,14 +240,6 @@ Project Link: [https://github.com/sadityakumar9211/medichain-hardhat](https://gi
 
 <!-- This is the beginning of the URLs of Badges -->
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[tailwindcss]: https://img.shields.io/badge/tailwindcss-62B9F3?style=for-the-badge
-[tailwind-url]: https://tailwindcss.com
-[moralis]: https://img.shields.io/badge/moralis-7D9DF0?style=for-the-badge&logoColor=6DE9DB
-[moralis-url]: https://moralis.io
-[web3uikit]: https://img.shields.io/badge/web3uikit-72E6E0?style=for-the-badge&logoColor=6DE9DB
-[web3uikit-url]: https://web3ui.github.io/web3uikit/
+[Bash]: https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=bash&logoColor=white
+[Bash-url]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiVpe7pzNb5AhWFDrcAHSVxDRcQFnoECAMQAQ&url=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Fbash%2F&usg=AOvVaw2Dm0MC4UsqBEChn48m7sCH
 
