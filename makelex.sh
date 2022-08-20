@@ -1,7 +1,7 @@
 # Author: Aditya Kumar Singh (2020BCS-004)
 # License: MIT
 
-#!/bin/zsh
+#!/bin/bash
 
 GREEN='\033[1;32m'
 DARKGREEN='\033[1;32m'
