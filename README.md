@@ -61,7 +61,6 @@ Automates the execution of commands for generating the lexical analyser using fl
         <li><a href="#quickstart">Quickstart</a></li>
       </ul>
     </li>
-    <li><a href="#locally-deploying">Locally Deploying</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -78,10 +77,6 @@ Automates the execution of commands for generating the lexical analyser using fl
 
 This bash script basically reduces the overhead of writing the commands one-by-one to compile lex file to c file and then c file to machine code and executing the machine code to run the lexical analyser with just writing one command `makelex.sh <file_name.l>`
 
-
-d the detailed description of the project [here](https://ipfs.infura.io/QmZtqbqPkm74j43Lhwd93fvDXCDCdYB8y8Gnaayc1f9LWG)
-
-### The links to other repositories of this project is at the top.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -105,23 +100,36 @@ The following is a list of major frameworks, library and tools used for developi
 
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - You'll know you did it right if you can run `git --version` and you see a response like `git version x.x.x`
-- [Nodejs](https://nodejs.org/en/)
-  - You'll know you've installed nodejs right if you can run:
-    - `node --version` and get an ouput like: `vx.x.x`
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
-  - You'll know you've installed yarn right if you can run:
-    - `yarn --version` and get an output like: `x.x.x`
-    - You might need to install it with `npm`
-- Optional Instruction
-  - Make sure that this repository and `medichain-hardhat` repository are in the same level in your directory structure.
-  - This makes sure that whenever you deploy the smart contract, this repository's `constants` files are updated. -->
-## Quickstart
 
+## Usage
+
+- Clone this repository
 ```bash
 git clone https://github.com/sadityakumar9211/flex-generator-script
 cd flex-generator-script
 yarn
 ```
+
+- Now terminal in the current directory.
+- Now copy the `makelex.sh` file to either  `~/bin` or `/usr/local/bin` directory using command: 
+
+```bash
+sudo cp makelex.sh ~/bin
+```
+OR
+
+```bash
+sudo cp makelex.sh /usr/local/bin
+```
+
+- If you have made copy to `~/bin` directory, then only you(the user who added this file to the machine can use this script globally) and you have to add this location to the PATH variable in .zshrc file.
+- If you have copied to `/usr/local/bin` directory then anyone this machine can use this script globally and you won't have to add this to the PATH variable.
+
+- Once you have done the above steps you should be able to compile any lex file (.l extension) using command:
+```bash
+makelex.sh <fileName>.l
+```
+
 
 ### Optional Gitpod
 
