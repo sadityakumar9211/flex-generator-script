@@ -58,7 +58,7 @@ Automates the execution of commands for generating the lexical analyser using fl
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#requirements">Requirements</a></li>
-        <li><a href="#quickstart">Quickstart</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li><a href="#contributing">Contributing</a></li>
